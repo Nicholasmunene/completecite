@@ -1,0 +1,20 @@
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.links{
+    text-decoration: none;
+    background-color:  whitesmoke;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+    color: black;
+}
+.links:hover{
+    background-color:black;
+    color: white;
+}
+.active{
+    background-color:grey;
+}
